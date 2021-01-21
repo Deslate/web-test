@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.App-TeaBreak {
+  color: #61dafb;
+  margin-left: 10px;
+  size: 1em;
+}
