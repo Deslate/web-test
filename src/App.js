@@ -1,16 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button';
+import Ghost from './Ghost'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-        <p>
+        {/* <p>
           Visit our web
           <a
             // style={{
@@ -23,24 +20,34 @@ function App() {
             // onClick={()=>{
             //   window.location.href="https://tea-break.cn" //as the node is button to define a funciton
             // }}
+            // more reference shows on https://zh-hans.reactjs.org/tutorial/tutorial.html
           >
             Our Website
           </a>
         </p>
+        <div>
+          <Button>Test</Button>
+          <a href="www.baidu.com"></a>
+        </div>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
+        <p>
+        Movie
+          <a
+          className="App-TeaBreak"
+          href="https://www.mini4k.com"
+          >
+            Mini4k
+          </a>
+        </p> */}
+      {/* <h1
+      className="App-Title">
+        Guide To The Universe Roaming
+      </h1> */}
       </header>
       <body>
-        
-        </body>>
+      <Ghost></Ghost>
+      </body>
+
     </div>
   );
 }
