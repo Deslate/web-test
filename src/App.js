@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './Button';
-import Ghost from './Ghost'
+import Ghost from './Ghost/index.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <p>
+        <p>
           Visit our web
           <a
             // style={{
@@ -38,14 +38,15 @@ function App() {
           >
             Mini4k
           </a>
-        </p> */}
+        </p>
       {/* <h1
       className="App-Title">
         Guide To The Universe Roaming
       </h1> */}
+      <Ghost></Ghost>
       </header>
       <body>
-      <Ghost></Ghost>
+      
       </body>
 
     </div>
